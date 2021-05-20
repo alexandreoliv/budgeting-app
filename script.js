@@ -62,8 +62,6 @@ function updateBalance() {
     // Actually the + "S" below is not necessary
     balanceElement.innerText = total.toFixed(2) + "$";
   }
-
-  balanceElement.innerText = total.toFixed(2) + "$";
 }
 
 additionButtonElement.onclick = function () {
